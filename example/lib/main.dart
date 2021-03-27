@@ -55,8 +55,10 @@ class KkiapaySample extends StatelessWidget {
       child: ButtonTheme(
         minWidth: 250.0,
         height: 60.0,
-        child: FlatButton(
-          color: Color(0xFFE30E25),
+        child: TextButton(
+          style: TextButton.styleFrom(
+            primary: Color(0xFFE30E25),
+          ),
           child: Text(
             'Pay Now',
             style: TextStyle(color: Colors.white),
